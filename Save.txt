@@ -1,0 +1,3 @@
+PoteRacao Arma Ossos 
+SalaDono
+true false
