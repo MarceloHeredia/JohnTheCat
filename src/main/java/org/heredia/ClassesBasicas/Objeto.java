@@ -1,4 +1,4 @@
-package ClassesBasicas;
+package org.heredia.ClassesBasicas;
 
 public abstract class Objeto {
     private String descricaoAntesAcao;

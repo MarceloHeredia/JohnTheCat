@@ -1,12 +1,12 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
 
-import ClassesBasicas.Ferramenta;
-import ClassesBasicas.Sala;
-import AAventuradeJohnoGato.Ferramentas.PoteRacao;
-import AAventuradeJohnoGato.Ferramentas.Arma;
-import AAventuradeJohnoGato.Objetos.DonoDestraido;
-import AAventuradeJohnoGato.Objetos.GatosMalvados;
+import org.heredia.ClassesBasicas.Ferramenta;
+import org.heredia.ClassesBasicas.Sala;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.PoteRacao;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Arma;
+import org.heredia.AAventuradeJohnoGato.Objetos.DonoDestraido;
+import org.heredia.AAventuradeJohnoGato.Objetos.GatosMalvados;
 
 public class SalaDono extends SalaAAventuradeJohnoGato {
 	private boolean entregoupote;

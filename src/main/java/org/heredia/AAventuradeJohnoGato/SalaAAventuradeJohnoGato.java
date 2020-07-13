@@ -1,6 +1,6 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 //sala do jogo demo reutilizada para o trabalho
-import ClassesBasicas.Sala;
+import org.heredia.ClassesBasicas.Sala;
 
 public abstract class SalaAAventuradeJohnoGato extends Sala {
 

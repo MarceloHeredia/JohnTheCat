@@ -1,4 +1,4 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,13 +47,13 @@ public class JanelaPrincipal extends Application {
 		images = new ArrayList<>();
 		
 		
-		images.add(new Image("file:Inicio.jpg"));
-		images.add(new Image("file:Rua.jpg"));
-		images.add(new Image("file:EntradaCasa1.jpg"));
-		images.add(new Image("file:EntradaCasa2.jpg"));
-		images.add(new Image("file:SalaDono.jpg"));
-		images.add(new Image("file:Cozinha.jpg"));
-		images.add(new Image("file:SalaGatos.jpg"));
+		images.add(new Image("file:img/Inicio.jpg"));
+		images.add(new Image("file:img/Rua.jpg"));
+		images.add(new Image("file:img/EntradaCasa1.jpg"));
+		images.add(new Image("file:img/EntradaCasa2.jpg"));
+		images.add(new Image("file:img/SalaDono.jpg"));
+		images.add(new Image("file:img/Cozinha.jpg"));
+		images.add(new Image("file:img/SalaGatos.jpg"));
 
 		
 		imgView = new ImageView();
@@ -105,7 +105,7 @@ public class JanelaPrincipal extends Application {
 	}
 	
 	public void playSound(String fileName){
-        Media m = new Media("file:///" + System.getProperty("user.dir").replace('\\', '/') + "/" + fileName);
+        Media m = new Media("file:///" + System.getProperty("user.dir").replace('\\', '/') + "/sounds/" + fileName);
         MediaPlayer player = new MediaPlayer(m);
         if (fileName.equals("salaGatos.mp3")) {
         	player.setVolume(0.05);

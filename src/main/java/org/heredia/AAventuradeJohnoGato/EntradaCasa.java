@@ -1,9 +1,9 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
-import ClassesBasicas.Ferramenta;
-import ClassesBasicas.Sala;
-import AAventuradeJohnoGato.Ferramentas.Ossos;
-import AAventuradeJohnoGato.Objetos.CaoBravo;
+import org.heredia.ClassesBasicas.Ferramenta;
+import org.heredia.ClassesBasicas.Sala;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Ossos;
+import org.heredia.AAventuradeJohnoGato.Objetos.CaoBravo;
 
 public class EntradaCasa extends SalaAAventuradeJohnoGato {
 	private boolean liberaporta;

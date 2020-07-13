@@ -1,6 +1,6 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
-import AAventuradeJohnoGato.Ferramentas.Ossos;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Ossos;
 
 public class Rua extends SalaAAventuradeJohnoGato {
 

@@ -1,4 +1,4 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
 import java.util.List;
 import java.io.BufferedReader;
@@ -10,12 +10,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import AAventuradeJohnoGato.Ferramentas.Ossos;
-import AAventuradeJohnoGato.Ferramentas.Arma;
-import AAventuradeJohnoGato.Ferramentas.PoteRacao;
-import AAventuradeJohnoGato.Objetos.GatosMalvados;
-import ClassesBasicas.Mochila;
-import ClassesBasicas.Sala;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Ossos;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Arma;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.PoteRacao;
+import org.heredia.AAventuradeJohnoGato.Objetos.GatosMalvados;
+import org.heredia.ClassesBasicas.Mochila;
+import org.heredia.ClassesBasicas.Sala;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.image.Image;

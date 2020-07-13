@@ -1,8 +1,8 @@
-package AAventuradeJohnoGato.Objetos;
+package org.heredia.AAventuradeJohnoGato.Objetos;
 
-import ClassesBasicas.Ferramenta;
-import ClassesBasicas.Objeto;
-import AAventuradeJohnoGato.Ferramentas.Ossos;
+import org.heredia.ClassesBasicas.Ferramenta;
+import org.heredia.ClassesBasicas.Objeto;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Ossos;
 
 public class CaoBravo extends Objeto {
 	public CaoBravo() {

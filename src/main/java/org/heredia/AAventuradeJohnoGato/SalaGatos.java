@@ -1,10 +1,10 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
 
-import ClassesBasicas.Ferramenta;
-import ClassesBasicas.Sala;
-import AAventuradeJohnoGato.Ferramentas.Arma;
-import AAventuradeJohnoGato.Objetos.GatosMalvados;
+import org.heredia.ClassesBasicas.Ferramenta;
+import org.heredia.ClassesBasicas.Sala;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Arma;
+import org.heredia.AAventuradeJohnoGato.Objetos.GatosMalvados;
 
 
 public class SalaGatos extends SalaAAventuradeJohnoGato {

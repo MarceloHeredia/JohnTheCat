@@ -1,9 +1,9 @@
-package AAventuradeJohnoGato.Objetos;
+package org.heredia.AAventuradeJohnoGato.Objetos;
 
-import ClassesBasicas.Ferramenta;
-import ClassesBasicas.Objeto;
-import AAventuradeJohnoGato.Ferramentas.PoteRacao;
-import AAventuradeJohnoGato.Ferramentas.Arma;
+import org.heredia.ClassesBasicas.Ferramenta;
+import org.heredia.ClassesBasicas.Objeto;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.PoteRacao;
+import org.heredia.AAventuradeJohnoGato.Ferramentas.Arma;
 
 public class DonoDestraido extends Objeto {
 	public DonoDestraido() {

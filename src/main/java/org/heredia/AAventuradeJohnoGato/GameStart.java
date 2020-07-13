@@ -1,4 +1,4 @@
-package AAventuradeJohnoGato;
+package org.heredia.AAventuradeJohnoGato;
 
 
 public class GameStart extends SalaAAventuradeJohnoGato {

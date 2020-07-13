@@ -1,4 +1,4 @@
-package ClassesBasicas;
+package org.heredia.ClassesBasicas;
 
 public class Ferramenta {
 	private String descricao;
